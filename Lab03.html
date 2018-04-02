@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab3</title>
+    <style>
+        *{margin: 0;padding: 0}
+        body{background: #E8EAF6;}
+        h1,h2,#sub ,#footer{color: white;}
+        u{color: #00B0FF;}
+        #link{background:#3F51B5 }
+        .information{font-style: italic;color: #C5CAE9;font-family: serif;}
+        .serif{font-family: serif;}
+        .weight{font-weight: bolder}
+        time{color: #F5A2C1;}
+        footer,header{background: #1A237E;}
+        h2{background: #7986CB;}
+        #label{font-family: serif;font-style: italic;color: #7990A3;}
+        #lb{background: #C5CAE9;padding-top: 0.5em;padding-bottom: 0.5em;padding-left: 1em;}
+        div{background: white;}
+        .a:hover{color: white;background:#F50057;}
+        .white{color: white;}
+        section{border: solid #C5CAE9;}
+        .size{min-width: 600px;}
+        body{padding-left: 5%;padding-right: 5%;}
+        h1{margin-left: 0em}
+        #sub{margin-bottom: 1em;}
+        header{padding-top: 1em;padding-left: 1em;}
+        #link{padding-top: 0.3em;padding-bottom: 0.3em;margin-left: -1em;}
+        #d{margin-left: 0.7em;margin-right: 0em;}
+        #p{margin-right: 0em;}
+        .a{padding: 0.3em;margin: 0em;}
+        div{margin-top: 0.5em;padding: 0.5em;
+            margin-bottom: 0.5em;}
+        h2{padding-left: 1em;padding-top: 1em;padding-bottom: 1em;}
+        span{padding-bottom: 0.5em;padding-right: 1em}
+        #img{margin: 0;border: 0px;padding: 0;}
+        #photo{display: block;object-fit: fill;}
+        #lb,#z{margin: 0;object-fit: fill;}
+        #z{padding: 0em}
+        #p1{
+            margin-right: 1em;margin-bottom: 1em;margin-top: 0.5em;
+            object-fit: fill;
+        }
+        span{
+            margin: 0 1em 0.5em 0;
+            padding: 0;
+        }
+        .icon{float: right;padding-bottom: 0.5em;}
+        #i{padding-right: 1em;}
+        #section1,#section2{margin-bottom: 0.5em;}
+        .information,.serif,hr{margin-left: 1em;margin-top: 0.5em;margin-bottom: 0.5em;}
+        #hr{margin-bottom: 1em;}
+        footer{padding-left: 1em;padding-bottom: 1.3em;padding-top: 1.3em;}
+        #footer{margin-top: 0.6em;}
+    </style>
+</head>
+<body>
+<header class="size" >
+    <h1>Share Tour Travels</h1>
+    <p id="sub">Let us know where you've been</p>
+    <p id="link">
+        <u id="d" class="a"><u>Description</u></u>
+        <u id="p" class="a"><u>Related Photos</u></u>
+        <u id="r" class="a"><u>Reviews</u></u>
+    </p>
+</header>
+<div class="size">
+    <section id="section1">
+        <h2><p>NEW YORK - CENTRAL PARK</p></h2>
+        <div id="img"><img id="photo" width="100%" height="100%" src="images/large-central-park.jpg"></div>
+        <div id="lb"><p id="label">Conservatory Pond in Central Park</p></div>
+        <div id="z">
+            <p id="p1" class="serif" class="weight">This photo of Conservatory Pond in <u><strong>Central Park</strong></u>
+                in <u><strong>New York City</strong></u> was taken on October 22,2016 with a Canon EOS 30D camera</p>
+        </div>
+        <span>
+            <img id="i"class="icon" src="images/icon_down.png">
+            <img class="icon" src="images/icon_up.png">
+            <img class="icon" src="images/icon_map.png">
+            <img class="icon" src="images/icon_mail.png">
+            <img  class="icon" src="images/icon_download.png">
+        </span>
+    </section>
+    <section id="section2">
+        <h2><p>RELATED PHOTOS</p></h2>
+        <span>
+        <img src="images/related-square1.jpg">
+        <img src="images/related-square2.jpg">
+        <img src="images/related-square3.jpg">
+    </span>
+    </section>
+    <section>
+        <h2><p>REVIEWS</p></h2>
+        <p class="information">By Ricardo on <time>2016-05-23</time></p>
+        <p class="serif">Easy on the HDR buddy</p>
+        <hr>
+        <p class="information">By Susan on <time>2016-11-18</time></p>
+        <p class="serif">I love Central Park</p>
+        <hr id="hr">
+    </section>
+</div>
+<footer class="size">
+    <p>
+        <span>
+            <u>Home</u>
+            <strong class="white">|</strong>
+            <u>Browse</u>
+            <strong class="white">|</strong>
+            <u>Search</u>
+        </span>
+    </p>
+    <p id="footer" style="font-style : italic">Copyright &copy 2017 Share Your Travels</p>
+</footer>
+</body>
+</html>
