@@ -1,0 +1,11 @@
+body{text-align: center;align-items: center;align-content: center;}
+#select1 {width: 300px;display: block;margin: auto;}
+#select2 {width: 300px;display: block;margin: auto;}
+*{padding: 0 0.5em;}
+#form2{margin-top: 0.5em;}
+input{width: 145px;}
+table {
+    margin: 0 auto;
+    width: 300px;
+}
+p{width: 300px;text-align: center;margin-left: 37%;font-size: 0.8em;}

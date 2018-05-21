@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+<form id="form1" name="form1">
+    <select id="select1" name="select1">
+        <option id="select">SELECT ONE</option>
+        <option id="create">CREATE TABLE</option>
+        <option id="add">ADD ROW</option>
+        <option id="delete row">DELETE ROW</option>
+        <option id="delete table">DELETE TABLE</option>
+        <input id="name" type="text" placeholder="Table Name" style="display: none" >
+        <input id="colNum" type="number" placeholder="Columns Numbers" style="display: none">
+    </select>
+</form>
+<form id="form2" name="form2">
+    <select id="select2" name="select2">
+        <option>SELECT (default: last created)</option>
+
+    </select>
+    <table id="table"></table>
+</form>
+<script type="text/javascript" src="table.js"></script>
+<script type="text/javascript" src="table0.js"></script>
+</body>
+</html>
