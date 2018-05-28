@@ -10,24 +10,6 @@ function generateLink($url, $label, $class) {
 
 function outputPostRow($number)  {
     include("travel-data.inc.php");
-	$star = constructRating(${'reviewsRating'.$number});
-	$button = generateLink('post.php?id= '.${'postId'.$number},'Read more','btn btn-primary btn-sm');
-	$row = '<div class="row"><div class="col-md-4"><a href="post.php?id=';
-	$row .= ${'postId'.$number}.'" class=""><img src="images/'.${'thumb'.$number}.
-	'" alt="Ekklisia Agii Isidori Church" class="img-responsive"/></a>
-	</div><div class="col-md-8"><h2>'.${'title'.$number}.'</h2>
-                <div class="details">Posted by
-                    <a href="user.php?id='.${'userId'.$number}.
-					'" class="">'.${'userName'.$number}.'</a>
-                    <span class="pull-right">'.${'date'.$number}.'</span>
-                    <p class="ratings">'.$star.${'reviewsNum'.$number}.
-					''.' Reviews</p>
-                </div><p class="excerpt">'.${'excerpt'.$number}.'</p>
-                <p>'.$button
-			.'</p>
-            </div>
-            </div>”';
-	echo $row;
 }
 
 /*
